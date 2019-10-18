@@ -4,7 +4,7 @@ package CafeX
   * Created By alex on 10/18/2019.
   */
 object Solution {
-  protected def billing(items: List[String]) = {
+  def billing(items: List[String]) = {
     val d = Map(("Cola",0.50),
       ("Coffee", 1.00),
       ("Cheese Sandwich", 2.00),
@@ -24,6 +24,6 @@ object Solution {
 
   }
   def main(args: Array[String]): Unit = {
-    print(billing(List("Cola", "Coffee", "Cheese Sandwich")))
+    print(billing(List("Cola", "Coffee")))
   }
 }

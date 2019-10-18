@@ -1,0 +1,8 @@
+[info] test:
+[info] - ['Cola', 'Coffee', 'Cheese Sandwich'] returns 3.85
+[info] - ['Cola'] returns 0.5
+[info] - ['Cola','Coffee'] returns 1.5
+[info] - ['Coffee'] returns 1.0
+[info] - Cheese Sandwich returns 2.2
+[info] - ['Cheese Sandwich, 'Cola'] returns 2.75
+[info] - Items whose service is greater than 20 should return 20
